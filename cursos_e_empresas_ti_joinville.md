@@ -6,10 +6,22 @@ paginate: true
 backgroundColor: #fff
 ---
 
-# Cursos de Computação e Informática
-## Em Joinville e Araquari
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; height: 100%; padding: 60px 20px;">
 
-Oportunidades de formação para o 3º ano do Ensino Médio
+  <h1 style="font-size: 4.5rem; color: #1a5276; text-align: center; margin: 0; line-height: 1.2;">
+    Cursos de Computação e Informática
+  </h1>
+
+  <h2 style="font-size: 3rem; color: #2874a6; text-align: center; margin: 0;">
+    Em Joinville e Araquari
+  </h2>
+
+  <div style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1.15em; text-align: center; margin-top: 30px;">
+    Oportunidades de formação para o 3º ano do Ensino Médio
+  </div>
+
+</div>
+
 
 
 ---
@@ -315,9 +327,18 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-# Maiores Empresas de TI na Região
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; height: 100%; padding: 60px 20px;">
 
-Oportunidades de trabalho após a formação
+  <h1 style="font-size: 4.5rem; color: #1a5276; text-align: center; margin: 0; line-height: 1.2;">
+    Maiores Empresas de TI na Região
+  </h1>
+
+  <div style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1.15em; text-align: center; margin-top: 30px;">
+    Oportunidades de trabalho após a formação
+  </div>
+
+</div>
+
 
 ---
 
@@ -411,7 +432,7 @@ Oportunidades de trabalho após a formação
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
   <img src="images/softexpert.png" alt="Softexpert logo" width="400" style="border-radius: 10px;">
 
@@ -433,7 +454,7 @@ Oportunidades de trabalho após a formação
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
   <a href="https://www.totvs.com">
     <img src="images/totvs.png" alt="TOTVS logo" width="400" style="border-radius: 10px;">
@@ -455,7 +476,7 @@ Oportunidades de trabalho após a formação
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
   <a href="https://www.dinamio.com.br">
     <img src="images/dinamio.png" alt="Dinamio logo" width="400" style="border-radius: 10px;">
@@ -478,218 +499,489 @@ Oportunidades de trabalho após a formação
 
 ---
 
-[![width:400px BoxTI](images/boxti.png)](https://boxti.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/boxti/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Desenvolvimento de Software
+  <a href="https://boxti.com.br">
+    <img src="images/boxti.png" alt="BoxTI logo" width="300" style="border-radius: 10px;">
+  </a>
 
-Desenvolvimento de software customizado e integrações com ERPs e sistemas externos.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Desenvolvimento de Software Sob Medida
+  </div>
 
-**Tecnologias:** Java, .NET, PHP, JavaScript, APIs REST, Integração de Sistemas, Cloud
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Soluções digitais personalizadas, integração de sistemas, portais corporativos e aplicativos para otimizar processos e conectar empresas.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: .NET, Node.js, Angular, React, Flutter, SQL Server, Azure, AWS, Metodologias Ágeis
+  </div>
 
-[![width:400px Tax Strategy](images/taxstrategy.png)](https://taxstrategy.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/tax-strategy/)
+</div>
 
-**Área:** Simplificação e automação tributária
-
-Tax Strategy busca revolucionar a forma como empresas brasileiras apuram, declaram e pagam impostos por meio de tecnologia, automação e inteligência artificial, reduzindo custos e complexidade da conformidade fiscal.
-
-**Tecnologias:** Automação fiscal, inteligência artificial, machine learning, software de gestão tributária, compliance, redução de custos fiscais
-
----
-
-[![width:400px Asaas](images/asaas.png)](https://www.asaas.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/asaasbrasil/)
-
-**Área:** Fintech e Pagamentos
-
-Plataforma de gestão financeira e cobranças para PMEs, com conta digital PJ completa.
-
-**Tecnologias:** Java, Kotlin, Spring Boot, Angular, APIs REST, Microserviços, Cloud, Fintech Stack
 
 ---
 
-[![width:400px Conta Azul](images/contaazul.png)](https://contaazul.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/contaazul/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Fintech e Gestão Financeira
+  <a href="https://taxstrategy.com.br">
+    <img src="images/taxstrategy.png" alt="Tax Strategy logo" width="400" style="border-radius: 10px;">
+  </a>
 
-ERP em nuvem para gestão financeira de PMEs, automatizando processos administrativos e contábeis.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Simplificação e Automação Tributária
+  </div>
 
-**Tecnologias:** Cloud Computing, SaaS, Python, JavaScript, Microserviços, APIs REST, Inteligência Artificial
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+   Busca revolucionar a forma como empresas brasileiras apuram, declaram e pagam impostos por meio de tecnologia, automação e inteligência artificial, reduzindo custos e complexidade da conformidade fiscal.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: React, Python, Django, Machine Learning, APIs REST, Cloud Computing, Docker, Kubernetes
+  </div>
 
-[![width:400px Neogrid](images/neogrid.png)](https://neogrid.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/neogrid/)
+</div>
 
-**Área:** Supply Chain e Varejo
-
-Ecossistema de tecnologia para gestão automática de supply chain, conectando indústria e varejo.
-
-**Tecnologias:** Big Data, Inteligência Artificial, EDI, Machine Learning, Cloud Computing, APIs, Analytics
-
----
-
-[![width:400px Opentech](images/opentech.png)](https://opentechgr.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/opentech/)
-
-**Área:** Gestão Logística e Gerenciamento de Risco
-
-Soluções tecnológicas para gerenciamento de risco e gestão logística em transportes.
-
-**Tecnologias:** IoT, Rastreamento GPS, Big Data, Cloud Computing, APIs, Telemetria, Mobile
 
 ---
 
-[![width:400px Selbetti](images/selbetti.png)](https://www.selbetti.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/selbetti/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Outsourcing de TI e Soluções Tecnológicas
+  <a href="https://www.asaas.com">
+    <img src="images/asaas.png" alt="Asaas logo" width="350" style="border-radius: 10px;">
+  </a>
 
-Maior One-Stop-Tech do Brasil, oferecendo outsourcing, impressão, automação e infraestrutura.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Fintech e Pagamentos
+  </div>
 
-**Tecnologias:** Cloud Computing, Infraestrutura de TI, Segurança da Informação, Automação, ECM, RPA
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Plataforma de gestão financeira e cobranças para PMEs, com conta digital PJ completa.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Java, Kotlin, Spring Boot, Angular, APIs REST, Microserviços, Cloud, Fintech Stack
+  </div>
 
-[![width:400px Becomex](images/becomex.png)](https://becomex.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/becomex/)
+</div>
 
-**Área:** Compliance Fiscal, Tributário e Aduaneiro
-
-Tecnologia e consultoria para gestão fiscal, tributária e aduaneira em cadeias produtivas.
-
-**Tecnologias:** Machine Learning, Data Science, Inteligência Artificial, Big Data, Cloud, APIs, Java
-
----
-
-[![width:400px Tiflux](images/tiflux.png)](https://tiflux.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/tiflux/)
-
-**Área:** Help Desk e Service Desk
-
-Plataforma de atendimento a clientes, gestão de tickets, chamados e contratos recorrentes.
-
-**Tecnologias:** Cloud Computing, SaaS, APIs, Integração WhatsApp, Webhooks, JavaScript, PostgreSQL
 
 ---
 
-[![width:400px itflex](images/itflex.png)](https://itflex.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/itflex-ciberseguranca/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Cibersegurança
+  <a href="https://contaazul.com">
+    <img src="images/contaazul.png" alt="Conta Azul logo" width="400" style="border-radius: 10px;">
+  </a>
 
-Soluções de cibersegurança e pentests para proteção contra ataques cibernéticos.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Fintech e Gestão Financeira
+  </div>
 
-**Tecnologias:** Pentest, Segurança da Informação, Ethical Hacking, Vulnerability Assessment, SOC
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    ERP em nuvem para gestão financeira de PMEs, automatizando processos administrativos e contábeis.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Cloud Computing, SaaS, Python, JavaScript, Microserviços, APIs REST, Inteligência Artificial
+  </div>
 
-[![width:400px dalmark](images/dalmark.png)](https://www.dalmark.com.br)[![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/dalmark-systems-ltda)
+</div>
 
-**Área:** ERP
-
-Seu principal produto é o SysTeam ERP, um dos ERPs mais completos e integrados do mercado, premiado por sua modernidade.
-
-**Tecnologias:** ERP, Business Intelligence, WMS (Warehouse Management System), Integração com APIs, JavaScript, PostgreSQL
-
----
-
-[![width:400px Neomind](images/neomind.png)](https://www.neomind.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/neomind/)
-
-**Área:** Gestão de Processos e Documentos (BPM/ECM)
-
-Plataforma de gestão de processos, documentos, indicadores e transformação digital.
-
-**Tecnologias:** BPM, ECM, Low-Code/No-Code, RPA, Workflow, BPMN, Assinatura Digital, Cloud, APIs
 
 ---
 
-[![width:400px Setti](images/setti.png)](https://setti.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/setti/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Soluções tecnológicas para gestão empresarial e otimização de processos.
+  <a href="https://neogrid.com">
+    <img src="images/neogrid.png" alt="Neogrid logo" width="400" style="border-radius: 10px;">
+  </a>
 
-**Tecnologias:** ERP, automação, integração (ajuste conforme necessário).
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Supply Chain e Varejo
+  </div>
 
----
-[![width:400px by Seven](images/byseven.png)](https://byseven.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/by-seven/)
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Ecossistema de tecnologia para gestão automática de supply chain, conectando indústria e varejo.
+  </p>
 
-**Área:** Consultoria e Serviços de Tecnologia da Informação
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Big Data, Inteligência Artificial, EDI, Machine Learning, Cloud Computing, APIs, Analytics
+  </div>
 
-Unem tecnologia e gestão para impulsionar negócios com excelência, oferecendo licenciamento de software, venda de hardware, monitoramento, suporte, consultoria e projetos personalizados.
+</div>
 
-**Tecnologias:** Gerenciamento e sustentação de ambientes, licenciamento de software, Cloud Computing, Infraestrutura, Segurança da Informação, Consultoria, Projetos TI
-
----
-
-[![width:400px Linx](images/linx.png)](https://linx.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/linx/)
-
-**Área:** Tecnologia para o Varejo
-
-Linx é líder em software de gestão para o varejo na América Latina, com mais de 50 soluções integradas em ERP, PDV, digital, autoatendimento, delivery, entre outros.
-
-**Tecnologias:** ERP, PDV, Cloud Services, E-commerce, Mobilidade, CRM, TEF, RFID, NFC-e e SAT, Integração Omnichannel
 
 ---
 
-[![width:400px Mercos](images/mercos.png)](https://mercos.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/mercos/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Sistema de vendas e e-commerce B2B para distribuidoras e representantes
+  <a href="https://opentechgr.com.br">
+    <img src="images/opentech.png" alt="Opentech logo" width="400" style="border-radius: 10px;">
+  </a>
 
-Mercos oferece uma solução completa para automatizar a operação comercial com IA, CRM, emissão de pedidos, gestão de estoque, e-commerce integrado, e integração com qualquer ERP.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Gestão Logística e Gerenciamento de Risco
+  </div>
 
-**Tecnologias:** Inteligência Artificial, CRM, ERP Integrado, E-commerce B2B, Aplicativo Mobile (iOS e Android), Automação de Pedidos
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Soluções tecnológicas para gerenciamento de risco e gestão logística em transportes.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: IoT, Rastreamento GPS, Big Data, Cloud Computing, APIs, Telemetria, Mobile
+  </div>
 
-[![width:400px Softplan](images/softplan.png)](https://softplan.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/softplan/)
+</div>
 
-**Área:** Transformação Digital para o Setor Público
-
-Softplan é pioneira na implementação de processos digitais no setor público, oferecendo soluções inteligentes e integradas para justiça, infraestrutura, obras e processos administrativos, focando em agilidade, transparência e eficiência.
-
-**Tecnologias:** SaaS, Inteligência Artificial, Processos Digitais, Compliance, Infraestrutura, Gestão Pública, Software em Nuvem
-
----
-
-[![width:400px Livon](images/livon.png)](https://soulivon.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/livon/)
-
-**Área:** Plataforma integrada de Saúde, Segurança e Meio Ambiente (EHS/SST)
-
-Solução com IA nativa para automatizar a gestão de saúde, segurança, meio ambiente e compliance regulatório.
-
-**Tecnologias:** Plataforma SaaS, IA nativa, gestão integrada de EHS e ESG, compliance documental, análise preditiva, integração com sistemas de RH
 
 ---
 
-[![width:400px Motorista PX](images/motoristapx.png)](https://motoristapx.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/motorista-px/)
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-**Área:** Plataforma de agenciamento de motoristas profissionais de caminhão
+  <a href="https://www.selbetti.com.br">
+    <img src="images/selbetti.png" alt="Selbetti logo" width="400" style="border-radius: 10px;">
+  </a>
 
-Conecta caminhoneiros autônomos e ajudantes a transportadoras para serviços de transporte de cargas pontuais.
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Outsourcing de TI e Soluções Tecnológicas
+  </div>
 
-**Tecnologias:** Tecnologia de agenciamento, CRM integrado, verificação documental, mapeamento de riscos por satélite, qualificação e treinamento EAD, automação de contratos e pagamentos.
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Maior One-Stop-Tech do Brasil, oferecendo outsourcing, impressão, automação e infraestrutura.
+  </p>
 
----
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Cloud Computing, Infraestrutura de TI, Segurança da Informação, Automação, ECM, RPA
+  </div>
 
-[![width:400px Prosyst](images/prosyst.png)](https://prosyst.com.br) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/prosyst/)
+</div>
 
-**Área:** Sistemas de Gestão Empresarial ERP para Indústrias, Distribuidoras e Redes de Lojas
-
-ERP integrado que abrange todas as áreas da empresa, com soluções personalizadas para diferentes segmentos, atualizações constantes para cumprir obrigações fiscais e uma plataforma complementar de business intelligence (nexBI) para suporte à decisão.
-
-**Tecnologias:** ERP, BI (Business Intelligence), Cloud Computing, Automação de Processos, Compliance Fiscal, Integração de Sistemas
-
----
-
-[![width:400px Trusted Health](images/trustedhealth.png)](https://trusted-health.com) [![Linkedin](images/linkedin.png)](https://www.linkedin.com/company/trusted-health/)
-
-**Área:** Plataforma de gerenciamento de vagas para profissionais de saúde
-
-Solução completa para conectar profissionais de enfermagem e saúde a oportunidades flexíveis de trabalho em grandes redes hospitalares nos Estados Unidos, permitindo gerenciar vagas, candidaturas, histórico de turnos e pagamentos.
-
-**Tecnologias:** API Rest, Ruby on Rails.
 
 ---
 
-# Próximos Passos
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
 
-✅ Visite os sites das instituições
-✅ Conheça as empresas da região
-✅ Participe de eventos e palestras
-✅ Faça escolhas alinhadas com seus interesses
-✅ Inicie sua carreira em TI!
+  <a href="https://becomex.com.br">
+    <img src="images/becomex.png" alt="Becomex logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Compliance Fiscal, Tributário e Aduaneiro
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Tecnologia e consultoria para gestão fiscal, tributária e aduaneira em cadeias produtivas.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Machine Learning, Data Science, Inteligência Artificial, Big Data, Cloud, APIs, Java
+  </div>
+
+</div>
+
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://tiflux.com">
+    <img src="images/tiflux.png" alt="Tiflux logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Help Desk e Service Desk
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Plataforma de atendimento a clientes, gestão de tickets, chamados e contratos recorrentes.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Cloud Computing, SaaS, APIs, Integração WhatsApp, Webhooks, JavaScript, PostgreSQL
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://itflex.com.br">
+    <img src="images/itflex.png" alt="itflex logo" width="300" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Cibersegurança
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Soluções de cibersegurança e pentests para proteção contra ataques cibernéticos.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Pentest, Segurança da Informação, Ethical Hacking, Vulnerability Assessment, SOC
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://www.dalmark.com.br">
+    <img src="images/dalmark.png" alt="dalmark logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    ERP
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Seu principal produto é o SysTeam ERP, um dos ERPs mais completos e integrados do mercado, premiado por sua modernidade.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: ERP, Business Intelligence, WMS (Warehouse Management System), Integração com APIs, JavaScript, PostgreSQL
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://www.neomind.com.br">
+    <img src="images/neomind.png" alt="neomind logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Gestão de Processos e Documentos (BPM/ECM)
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Plataforma de gestão de processos, documentos, indicadores e transformação digital.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: BPM, ECM, Low-Code/No-Code, RPA, Workflow, BPMN, Assinatura Digital, Cloud, APIs
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://setti.com.br">
+    <img src="images/setti.png" alt="setti logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Soluções Tecnológicas para Gestão Empresarial e Otimização de Processos
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Soluções tecnológicas para gestão empresarial e otimização de processos.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: ERP, automação, integração
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://byseven.com.br">
+    <img src="images/byseven.png" alt="by Seven logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Consultoria e Serviços de Tecnologia da Informação
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+   Licenciamento de software, venda de hardware, monitoramento, suporte, consultoria e projetos personalizados.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Gerenciamento e sustentação de ambientes, licenciamento de software, Cloud Computing, Infraestrutura, Segurança da Informação, Consultoria, Projetos TI
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://linx.com.br">
+    <img src="images/linx.png" alt="linx logo" width="300" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Tecnologia para o Varejo
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Software de gestão para o varejo na América Latina. Soluções integradas em ERP, PDV, digital, autoatendimento, delivery, entre outros.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: ERP, PDV, Cloud Services, E-commerce, Mobilidade, CRM, TEF, RFID, NFC-e e SAT, Integração Omnichannel
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://mercos.com">
+    <img src="images/mercos.png" alt="mercos logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Sistema de Vendas e E-commerce B2B para Distribuidoras e Representantes
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+   Solução completa para automatizar a operação comercial com IA, CRM, emissão de pedidos, gestão de estoque, e-commerce integrado, e integração com qualquer ERP.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Inteligência Artificial, CRM, ERP Integrado, E-commerce B2B, Automação de Pedidos
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://softplan.com.br">
+    <img src="images/softplan.png" alt="softplan logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Transformação Digital para o Setor Público
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Processos digitais no setor público, oferecendo soluções inteligentes e integradas para justiça, infraestrutura, obras e processos administrativos, focando em agilidade, transparência e eficiência.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: SaaS, IA, Processos Digitais, Compliance, Infraestrutura, Gestão Pública, Software em Nuvem
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://soulivon.com.br">
+    <img src="images/livon.png" alt="livon logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Plataforma Integrada de Saúde, Segurança e Meio Ambiente (EHS/SST)
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Solução com IA nativa para automatizar a gestão de saúde, segurança, meio ambiente e compliance regulatório.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: SaaS, IA, EHS e ESG, compliance documental, análise preditiva, integração com sistemas de RH
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://motoristapx.com.br">
+    <img src="images/motoristapx.png" alt="Motorista PX logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Plataforma de Agenciamento de Motoristas Profissionais de Caminhão
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Conecta caminhoneiros autônomos e ajudantes a transportadoras para serviços de transporte de cargas pontuais.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: agenciamento, CRM, verificação documental, mapeamento de riscos por satélite, automação de contratos e pagamentos.
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://prosyst.com.br">
+    <img src="images/prosyst.png" alt="Prosyst logo" width="300" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Sistemas de Gestão Empresarial ERP para Indústrias, Distribuidoras e Redes de Lojas
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    ERP integrado e uma plataforma complementar de business intelligence (nexBI) para suporte à decisão.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: ERP, BI, Cloud Computing, Automação de Processos, Compliance Fiscal, Integração de Sistemas
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://trusted-health.com">
+    <img src="images/trustedhealth.png" alt="Trusted Health logo" width="400" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Plataforma de Gerenciamento de Vagas para Profissionais de Saúde
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Conecta profissionais de enfermagem e saúde a oportunidades de trabalho em grandes redes hospitalares nos Estados Unidos, permitindo gerenciar vagas, candidaturas, histórico de turnos e pagamentos.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: API Rest, Ruby on Rails
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Próximos Passos
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.8; text-align: left; width: 100%;">
+    ✅ Visite os sites das instituições<br>
+    ✅ Conheça as empresas da região<br>
+    ✅ Participe de eventos e palestras<br>
+    ✅ Faça escolhas alinhadas com seus interesses<br>
+    ✅ Inicie sua carreira em TI!
+  </p>
+
+</div>
 
