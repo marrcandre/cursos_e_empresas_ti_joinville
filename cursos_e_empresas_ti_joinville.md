@@ -1,12 +1,111 @@
 ---
 marp: true
 theme: gaia
-class: lead
 paginate: true
 backgroundColor: #fff
 ---
+<style>
+/* === Alinhamento ao topo (slides de conteúdo) === */
+section {
+  padding-top: 40px !important;
+}
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; height: 100%; padding: 60px 20px;">
+/* === Slides de cursos === */
+.course-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.course-header h2 {
+  background: #1a5276;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0;
+}
+.course-header img {
+  border-radius: 8px;
+}
+.course-badges {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 15px 0 25px 0;
+}
+.badge {
+  background: #2874a6;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.course-desc {
+  background: #d4e6f1;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #154360;
+  font-size: 1.1em;
+}
+
+/* === Slides de empresas === */
+.company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.company-card img {
+  border-radius: 10px;
+}
+.area-badge {
+  background: #1a5276;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-align: center;
+}
+.desc-box {
+  background: #d4e6f1;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: #154360;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+}
+.tech-badge {
+  background: #2874a6;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* === Wrapper centralizado (slides de título/transição) === */
+.slide-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 60px 20px;
+}
+</style>
+
+<!-- _class: lead -->
+
+<div class="slide-center">
 
   <h1 style="font-size: 4.5rem; color: #1a5276; text-align: center; margin: 0; line-height: 1.2;">
     Cursos de Computação e Informática
@@ -25,6 +124,7 @@ backgroundColor: #fff
 
 
 ---
+<!-- _class: lead -->
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
 
@@ -52,411 +152,399 @@ backgroundColor: #fff
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.ifc.edu.br">
-    <img src="images/ifc.png" alt="IFC logo" width="150" style="border-radius: 8px;">
+    <img src="images/ifc.png" alt="IFC logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Sistemas de Informação (BSI)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
-    Bacharelado
+<div class="course-badges">
+  <span class="badge">
+    🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ☀️ Matutino
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-Análise de sistemas, programação, bancos de dados, redes, gestão de TI e desenvolvimento de soluções empresariais.
+<p class="course-desc">
+Curso público e gratuito em campus federal. Forma profissionais em análise de sistemas, programação, bancos de dados e redes, com ênfase em pesquisa e desenvolvimento de soluções empresariais.
 </p>
 
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.ifc.edu.br">
-    <img src="images/ifc.png" alt="IFC logo" width="150" style="border-radius: 8px;">
+    <img src="images/ifc.png" alt="IFC logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Redes de Computadores
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
-    Tecnólogo
+<div class="course-badges">
+  <span class="badge">
+    🎓 Tecnólogo
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 3 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-Projeto, implantação e gestão de redes, telecomunicações, infraestrutura e segurança de redes.
+<p class="course-desc">
+Curso público e gratuito em campus federal. Forma profissionais em projeto, implantação e gestão de redes, telecomunicações e segurança — base para certificações como CCNA e CompTIA Network+.
 </p>
 
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.udesc.br">
-    <img src="images/udesc.png" alt="UDESC logo" width="150" style="border-radius: 8px;">
+    <img src="images/udesc.png" alt="UDESC logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Ciência da Computação (BCC)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
-    Bacharelado
+<div class="course-badges">
+  <span class="badge">
+    🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏰ Integral
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ ~4,5 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154603; font-size: 1.1em;">
-  Formação em fundamentos de computação, algoritmos, estruturas de dados, programação, engenharia de software e pesquisa científica em computação.
+<p class="course-desc">
+  Curso público e gratuito com forte base científica. Forma pesquisadores e engenheiros em algoritmos, estruturas de dados, inteligência artificial, engenharia de software e computação de alto desempenho.
 </p>
 
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.udesc.br">
-    <img src="images/udesc.png" alt="UDESC logo" width="150" style="border-radius: 8px;">
+    <img src="images/udesc.png" alt="UDESC logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Análise e Desenvolvimento de Sistemas (TADS)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
-    Tecnólogo
+<div class="course-badges">
+  <span class="badge">
+    🎓 Tecnólogo
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 3 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-Formação prática em desenvolvimento de sistemas, programação, bancos de dados, análise de requisitos e gestão de projetos de software.
+<p class="course-desc">
+Curso público e gratuito com foco em desenvolvimento ágil. Forma desenvolvedores full-stack em programação, bancos de dados, DevOps, análise de requisitos e gestão de projetos de software.
 </p>
 
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.univille.br">
-    <img src="images/univille.png" alt="Univille logo" width="150" style="border-radius: 8px;">
+    <img src="images/univille.png" alt="Univille logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Sistemas de Informação (BSI)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ☀️ Matutino / 🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-Desenvolvimento profissional em análise de sistemas, programação orientada a objetos, bancos de dados, redes e inteligência artificial.
+<p class="course-desc">
+Formação voltada ao mercado corporativo com ênfase em programação orientada a objetos, arquitetura de sistemas, inteligência artificial e integração com o ecossistema empresarial regional.
 </p>
 
 
 ---
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.univille.br">
-    <img src="images/univille.png" alt="Univille logo" width="150" style="border-radius: 8px;">
+    <img src="images/univille.png" alt="Univille logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Engenharia de Software (BES)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ☀️ Matutino / 🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-Especialização em desenvolvimento de software, banco de dados, redes, gestão de projetos e processos de software.
+<p class="course-desc">
+Foco em engenharia de processos, qualidade de software, DevOps, metodologias ágeis e arquitetura de sistemas — preparando engenheiros para os desafios de grandes projetos de software.
 </p>
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.catolicasc.org.br">
-    <img src="images/catolica.png" alt="Católica SC logo" width="150" style="border-radius: 8px;">
+    <img src="images/catolica.png" alt="Católica SC logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Engenharia de Software (BES)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ☀️ Matutino / 🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-  Processos de desenvolvimento, qualidade de software, gestão de projetos e arquitetura de sistemas.
+<p class="course-desc">
+  Formação em engenharia de software com ênfase em qualidade, arquitetura de sistemas, métodos ágeis e gestão de projetos — preparando profissionais para liderar equipes de desenvolvimento.
 </p>
 
 ---
 
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.anhanguera.com">
-    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150" style="border-radius: 8px;">
+    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Ciência da Computação (BCC)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-  Formação abrangente em computação teórica, algoritmos, desenvolvimento de software e pesquisa em IA.
+<p class="course-desc">
+  Formação abrangente cobrindo computação teórica, algoritmos, estruturas de dados, desenvolvimento de software e fundamentos de IA — com aulas noturnas para quem já trabalha.
 </p>
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.anhanguera.com">
-    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150" style="border-radius: 8px;">
+    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
     Engenharia da Computação (EGC)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Bacharelado
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 4 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-  Desenvolvimento em hardware, sistemas embarcados, eletrônica digital, arquitetura de computadores e IoT.
+<p class="course-desc">
+  Integra eletrônica, programação e gestão de projetos. Forma engenheiros para hardware, sistemas embarcados, IoT, robótica e automação industrial — um dos perfis mais demandados pelo setor industrial.
 </p>
 
 ---
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
+<div class="course-header">
   <a href="https://www.anhanguera.com">
-    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150" style="border-radius: 8px;">
+    <img src="images/anhanguera.png" alt="Anhanguera logo" width="150">
   </a>
-  <h2 style="background: #1a5276; color: #fff; padding: 10px 20px; border-radius: 10px; margin: 0;">
+  <h2>
   Análise e Desenvolvimento de Sistemas (TADS)
   </h2>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+<div class="course-badges">
+  <span class="badge">
     🎓 Tecnólogo
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     🌙 Noturno
   </span>
-  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span class="badge">
     ⏳ 3 anos
   </span>
 </div>
 
-<p style="background: #d4e6f1; padding: 15px 20px; border-radius: 10px; color: #154360; font-size: 1.1em;">
-  Desenvolvimento prático de sistemas, linguagens de programação, bancos de dados e soluções corporativas.
+<p class="course-desc">
+  Tecnólogo com entrada rápida no mercado. Forma desenvolvedores em programação, bancos de dados e soluções corporativas, com duração de apenas 3 anos e aulas noturnas.
 </p>
 
 ---
+<!-- _class: lead -->
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; height: 100%; padding: 60px 20px;">
+<div class="slide-center">
 
   <h1 style="font-size: 4.5rem; color: #1a5276; text-align: center; margin: 0; line-height: 1.2;">
     Maiores Empresas de TI na Região
   </h1>
 
   <div style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1.15em; text-align: center; margin-top: 30px;">
-    Oportunidades de trabalho após a formação
+    27 empresas com oportunidades de trabalho após a formação
   </div>
 
 </div>
 
 
 ---
+<!-- _class: lead -->
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 3rem;">
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; max-width: 880px; margin: 0 auto;">
 <a href="https://www.linkedin.com/showcase/softexpert-brasil/">
-  <img src="images/softexpert.png" width="150" alt="Softexpert">
+  <img src="images/softexpert.png" width="120" alt="Softexpert">
 </a>
 <a href="https://www.totvs.com">
-  <img src="images/totvs.png" width="150" alt="TOTVS">
+  <img src="images/totvs.png" width="120" alt="TOTVS">
 </a>
-<a href="https://www.dinamio.com.br" style="">
-  <img src="images/dinamio.png" width="150" alt="Dinamio">
+<a href="https://www.dinamio.com.br">
+  <img src="images/dinamio.png" width="120" alt="Dinamio">
 </a>
 <a href="https://boxti.com.br">
-  <img src="images/boxti.png" width="100" alt="BoxTI">
+  <img src="images/boxti.png" width="120" alt="BoxTI">
 </a>
 <a href="https://taxstrategy.com.br">
-  <img src="images/taxstrategy.png" width="150" alt="Tax Strategy">
+  <img src="images/taxstrategy.png" width="120" alt="Tax Strategy">
 </a>
 <a href="https://www.asaas.com">
-  <img src="images/asaas.png" width="150" alt="Asaas">
+  <img src="images/asaas.png" width="120" alt="Asaas">
 </a>
 <a href="https://contaazul.com">
-  <img src="images/contaazul.png" width="150" alt="Conta Azul">
+  <img src="images/contaazul.png" width="120" alt="Conta Azul">
 </a>
 <a href="https://neogrid.com">
-  <img src="images/neogrid.png" width="150" alt="Neogrid">
+  <img src="images/neogrid.png" width="120" alt="Neogrid">
 </a>
 <a href="https://opentechgr.com.br">
-  <img src="images/opentech.png" width="150" alt="Opentech">
+  <img src="images/opentech.png" width="120" alt="Opentech">
 </a>
 <a href="https://www.selbetti.com.br">
-  <img src="images/selbetti.png" width="150" alt="Selbetti">
+  <img src="images/selbetti.png" width="120" alt="Selbetti">
 </a>
 <a href="https://becomex.com.br">
-  <img src="images/becomex.png" width="150" alt="Becomex">
+  <img src="images/becomex.png" width="120" alt="Becomex">
 </a>
 <a href="https://tiflux.com">
-  <img src="images/tiflux.png" width="150" alt="Tiflux">
+  <img src="images/tiflux.png" width="120" alt="Tiflux">
 </a>
-
 <a href="https://itflex.com.br">
   <img src="images/itflex.png" width="120" alt="Itflex">
 </a>
-
 <a href="https://dalmark.com.br">
-  <img src="images/dalmark.png" width="150" alt="Dalmark">
+  <img src="images/dalmark.png" width="120" alt="Dalmark">
 </a>
-
 <a href="https://www.neomind.com.br">
-  <img src="images/neomind.png" width="150" alt="Neomind">
+  <img src="images/neomind.png" width="120" alt="Neomind">
 </a>
-
 <a href="https://setti.com.br">
-  <img src="images/setti.png" width="150" alt="Setti">
+  <img src="images/setti.png" width="120" alt="Setti">
 </a>
-
 <a href="https://byseven.com.br">
-  <img src="images/byseven.png" width="150" alt="by Seven">
+  <img src="images/byseven.png" width="120" alt="by Seven">
 </a>
-
 <a href="https://linx.com.br">
-  <img src="images/linx.png" width="150" alt="Linx">
+  <img src="images/linx.png" width="120" alt="Linx">
 </a>
-
 <a href="https://mercos.com">
-  <img src="images/mercos.png" width="150" alt="Mercos">
+  <img src="images/mercos.png" width="120" alt="Mercos">
 </a>
-
 <a href="https://softplan.com.br">
-  <img src="images/softplan.png" width="150" alt="Softplan">
+  <img src="images/softplan.png" width="120" alt="Softplan">
 </a>
-
 <a href="https://soulivon.com.br">
-  <img src="images/livon.png" width="150" alt="Livon">
+  <img src="images/livon.png" width="120" alt="Livon">
 </a>
-
 <a href="https://motoristapx.com.br">
-  <img src="images/motoristapx.png" width="150" alt="Motorista PX">
+  <img src="images/motoristapx.png" width="120" alt="Motorista PX">
 </a>
-
 <a href="https://prosyst.com.br">
-  <img src="images/prosyst.png" width="150" alt="Prosyst">
+  <img src="images/prosyst.png" width="120" alt="Prosyst">
 </a>
-
 <a href="https://trusted-health.com">
-  <img src="images/trustedhealth.png" width="150" alt="Trusted Health">
+  <img src="images/trustedhealth.png" width="120" alt="Trusted Health">
 </a>
-
 <a href="https://moneyp.com.br/">
-  <img src="images/bmptec.png" width="150" alt="BMPTech">
+  <img src="images/bmptec.png" width="120" alt="BMPTech">
 </a>
-
 <a href="https://pollux.com.br/">
-  <img src="images/pollux.png" width="150" alt="Pollux">
+  <img src="images/pollux.png" width="120" alt="Pollux">
 </a>
-
 <a href="https://multipedidos.com.br/">
-  <img src="images/multipedidos.png" width="150" alt="Multipedidos">
+  <img src="images/multipedidos.png" width="120" alt="Multipedidos">
 </a>
-
 </div>
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
-  <img src="images/softexpert.png" alt="Softexpert logo" width="400" style="border-radius: 10px;">
+  <a href="https://www.linkedin.com/showcase/softexpert-brasil/">
+    <img src="images/softexpert.png" alt="Softexpert logo" width="400">
+  </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Gestão Empresarial e Compliance
+  <div class="area-badge">
+    🏆 Gestão Empresarial e Compliance
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Software para gestão integrada de conformidade, inovação e transformação digital.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Java, JavaScript, Cloud Computing, BPM, ECM, GRC, APIs REST, Docker, Kubernetes
   </div>
 
@@ -466,21 +554,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.totvs.com">
-    <img src="images/totvs.png" alt="TOTVS logo" width="400" style="border-radius: 10px;">
+    <img src="images/totvs.png" alt="TOTVS logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Sistemas de Gestão Empresarial (ERP)
+  <div class="area-badge">
+    📊 Sistemas de Gestão Empresarial (ERP)
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Maior empresa de tecnologia do Brasil, líder em ERPs e sistemas de gestão empresarial.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: ADVPL, TLPP, Angular, TypeScript
   </div>
 
@@ -488,21 +576,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.dinamio.com.br">
-    <img src="images/dinamio.png" alt="Dinamio logo" width="400" style="border-radius: 10px;">
+    <img src="images/dinamio.png" alt="Dinamio logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Infraestrutura de TI e Cibersegurança
+  <div class="area-badge">
+    🖥️ Infraestrutura de TI e Cibersegurança
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Soluções em infraestrutura, cibersegurança, cloud e serviços gerenciados de TI.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Microsoft Azure, Citrix, Kaspersky, Veeam, ManageEngine, VMware, Fortinet, Linux
   </div>
 
@@ -511,21 +599,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://boxti.com.br">
-    <img src="images/boxti.png" alt="BoxTI logo" width="300" style="border-radius: 10px;">
+    <img src="images/boxti.png" alt="BoxTI logo" width="300">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Desenvolvimento de Software Sob Medida
+  <div class="area-badge">
+    💻 Desenvolvimento de Software Sob Medida
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Soluções digitais personalizadas, integração de sistemas, portais corporativos e aplicativos para otimizar processos e conectar empresas.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: .NET, Node.js, Angular, React, Flutter, SQL Server, Azure, AWS, Metodologias Ágeis
   </div>
 
@@ -534,21 +622,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://taxstrategy.com.br">
-    <img src="images/taxstrategy.png" alt="Tax Strategy logo" width="400" style="border-radius: 10px;">
+    <img src="images/taxstrategy.png" alt="Tax Strategy logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Simplificação e Automação Tributária
+  <div class="area-badge">
+    🧾 Simplificação e Automação Tributária
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
-   Busca revolucionar a forma como empresas brasileiras apuram, declaram e pagam impostos por meio de tecnologia, automação e inteligência artificial, reduzindo custos e complexidade da conformidade fiscal.
+  <p class="desc-box">
+   Plataforma de automação tributária com IA para simplificar apuração, declaração e pagamento de impostos — reduzindo custos e complexidade do compliance fiscal brasileiro.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: React, Python, Django, Machine Learning, APIs REST, Cloud Computing, Docker, Kubernetes
   </div>
 
@@ -557,22 +645,22 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.asaas.com">
-    <img src="images/asaas.png" alt="Asaas logo" width="350" style="border-radius: 10px;">
+    <img src="images/asaas.png" alt="Asaas logo" width="350">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Fintech e Pagamentos
+  <div class="area-badge">
+    💳 Fintech e Pagamentos
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Plataforma de gestão financeira e cobranças para PMEs, com conta digital PJ completa.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: Java, Kotlin, Spring Boot, Angular, APIs REST, Microserviços, Cloud, Fintech Stack
+  <div class="tech-badge">
+    Tecnologias: Java, Kotlin, Spring Boot, Angular, TypeScript, APIs REST, Microservices, AWS, PostgreSQL
   </div>
 
 </div>
@@ -580,21 +668,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://contaazul.com">
-    <img src="images/contaazul.png" alt="Conta Azul logo" width="400" style="border-radius: 10px;">
+    <img src="images/contaazul.png" alt="Conta Azul logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Fintech e Gestão Financeira
+  <div class="area-badge">
+    💰 Fintech e Gestão Financeira
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     ERP em nuvem para gestão financeira de PMEs, automatizando processos administrativos e contábeis.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Cloud Computing, SaaS, Python, JavaScript, Microserviços, APIs REST, Inteligência Artificial
   </div>
 
@@ -603,21 +691,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://neogrid.com">
-    <img src="images/neogrid.png" alt="Neogrid logo" width="400" style="border-radius: 10px;">
+    <img src="images/neogrid.png" alt="Neogrid logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Supply Chain e Varejo
+  <div class="area-badge">
+    📦 Supply Chain e Varejo
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Ecossistema de tecnologia para gestão automática de supply chain, conectando indústria e varejo.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Big Data, Inteligência Artificial, EDI, Machine Learning, Cloud Computing, APIs, Analytics
   </div>
 
@@ -626,21 +714,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://opentechgr.com.br">
-    <img src="images/opentech.png" alt="Opentech logo" width="400" style="border-radius: 10px;">
+    <img src="images/opentech.png" alt="Opentech logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Gestão Logística e Gerenciamento de Risco
+  <div class="area-badge">
+    🚚 Gestão Logística e Gerenciamento de Risco
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Soluções tecnológicas para gerenciamento de risco e gestão logística em transportes.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: IoT, Rastreamento GPS, Big Data, Cloud Computing, APIs, Telemetria, Mobile
   </div>
 
@@ -649,21 +737,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.selbetti.com.br">
-    <img src="images/selbetti.png" alt="Selbetti logo" width="400" style="border-radius: 10px;">
+    <img src="images/selbetti.png" alt="Selbetti logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Outsourcing de TI e Soluções Tecnológicas
+  <div class="area-badge">
+    🖨️ Outsourcing de TI e Soluções Tecnológicas
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Maior One-Stop-Tech do Brasil, oferecendo outsourcing, impressão, automação e infraestrutura.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Cloud Computing, Infraestrutura de TI, Segurança da Informação, Automação, ECM, RPA
   </div>
 
@@ -672,21 +760,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://becomex.com.br">
-    <img src="images/becomex.png" alt="Becomex logo" width="400" style="border-radius: 10px;">
+    <img src="images/becomex.png" alt="Becomex logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Compliance Fiscal, Tributário e Aduaneiro
+  <div class="area-badge">
+    ⚖️ Compliance Fiscal, Tributário e Aduaneiro
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Tecnologia e consultoria para gestão fiscal, tributária e aduaneira em cadeias produtivas.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Machine Learning, Data Science, Inteligência Artificial, Big Data, Cloud, APIs, Java
   </div>
 
@@ -695,21 +783,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://tiflux.com">
-    <img src="images/tiflux.png" alt="Tiflux logo" width="400" style="border-radius: 10px;">
+    <img src="images/tiflux.png" alt="Tiflux logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Help Desk e Service Desk
+  <div class="area-badge">
+    🎫 Help Desk e Service Desk
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Plataforma de atendimento a clientes, gestão de tickets, chamados e contratos recorrentes.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Cloud Computing, SaaS, APIs, Integração WhatsApp, Webhooks, JavaScript, PostgreSQL
   </div>
 
@@ -717,21 +805,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://itflex.com.br">
-    <img src="images/itflex.png" alt="itflex logo" width="300" style="border-radius: 10px;">
+    <img src="images/itflex.png" alt="itflex logo" width="300">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Cibersegurança
+  <div class="area-badge">
+    🔒 Cibersegurança
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
-    Soluções de cibersegurança e pentests para proteção contra ataques cibernéticos.
+  <p class="desc-box">
+    Especializada em cibersegurança ofensiva e defensiva: pentests, análise de vulnerabilidades, SOC gerenciado e treinamentos em segurança para equipes técnicas.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Pentest, Segurança da Informação, Ethical Hacking, Vulnerability Assessment, SOC
   </div>
 
@@ -739,21 +827,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.dalmark.com.br">
-    <img src="images/dalmark.png" alt="dalmark logo" width="400" style="border-radius: 10px;">
+    <img src="images/dalmark.png" alt="dalmark logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    ERP
+  <div class="area-badge">
+    🏗️ ERP para Indústria e Comércio — SysTeam
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
-    Seu principal produto é o SysTeam ERP, um dos ERPs mais completos e integrados do mercado, premiado por sua modernidade.
+  <p class="desc-box">
+    ERP completo e integrado para indústrias e comércio, com módulos de produção, estoque (WMS), financeiro e business intelligence. Seu principal produto, o SysTeam ERP, é premiado pela modernidade e integração.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: ERP, Business Intelligence, WMS (Warehouse Management System), Integração com APIs, JavaScript, PostgreSQL
   </div>
 
@@ -761,21 +849,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://www.neomind.com.br">
-    <img src="images/neomind.png" alt="neomind logo" width="400" style="border-radius: 10px;">
+    <img src="images/neomind.png" alt="neomind logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Gestão de Processos e Documentos (BPM/ECM)
+  <div class="area-badge">
+    🔄 Gestão de Processos e Documentos (BPM/ECM)
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Plataforma de gestão de processos, documentos, indicadores e transformação digital.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: BPM, ECM, Low-Code/No-Code, RPA, Workflow, BPMN, Assinatura Digital, Cloud, APIs
   </div>
 
@@ -783,65 +871,65 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://setti.com.br">
-    <img src="images/setti.png" alt="setti logo" width="400" style="border-radius: 10px;">
+    <img src="images/setti.png" alt="setti logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Soluções Tecnológicas para Gestão Empresarial e Otimização de Processos
+  <div class="area-badge">
+    🏭 ERP e Gestão para Indústrias e Distribuidoras
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
-    Soluções tecnológicas para gestão empresarial e otimização de processos.
+  <p class="desc-box">
+    ERP e soluções de gestão para indústrias e distribuidoras, com módulos integrados de produção, fiscal, financeiro e CRM.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: ERP, automação, integração
+  <div class="tech-badge">
+    Tecnologias: Delphi, .NET, SQL Server, SPED/NF-e, Integração com APIs, Automação de Processos
   </div>
 
 </div>
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://byseven.com.br">
-    <img src="images/byseven.png" alt="by Seven logo" width="400" style="border-radius: 10px;">
+    <img src="images/byseven.png" alt="by Seven logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Consultoria e Serviços de Tecnologia da Informação
+  <div class="area-badge">
+    🛠️ Consultoria e Serviços de TI
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
    Licenciamento de software, venda de hardware, monitoramento, suporte, consultoria e projetos personalizados.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: Gerenciamento e sustentação de ambientes, licenciamento de software, Cloud Computing, Infraestrutura, Segurança da Informação, Consultoria, Projetos TI
+  <div class="tech-badge">
+    Tecnologias: Cloud Computing, Infraestrutura de TI, Segurança da Informação, Licenciamento Microsoft/Adobe, Monitoramento e Suporte
   </div>
 
 </div>
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://linx.com.br">
-    <img src="images/linx.png" alt="linx logo" width="300" style="border-radius: 10px;">
+    <img src="images/linx.png" alt="linx logo" width="300">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Tecnologia para o Varejo
+  <div class="area-badge">
+    🛒 Tecnologia para o Varejo
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Software de gestão para o varejo na América Latina. Soluções integradas em ERP, PDV, digital, autoatendimento, delivery, entre outros.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: ERP, PDV, Cloud Services, E-commerce, Mobilidade, CRM, TEF, RFID, NFC-e e SAT, Integração Omnichannel
   </div>
 
@@ -849,21 +937,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://mercos.com">
-    <img src="images/mercos.png" alt="mercos logo" width="400" style="border-radius: 10px;">
+    <img src="images/mercos.png" alt="mercos logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Sistema de Vendas e E-commerce B2B para Distribuidoras e Representantes
+  <div class="area-badge">
+    🤝 Vendas B2B e E-commerce para Distribuidoras
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
    Solução completa para automatizar a operação comercial com IA, CRM, emissão de pedidos, gestão de estoque, e-commerce integrado, e integração com qualquer ERP.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Inteligência Artificial, CRM, ERP Integrado, E-commerce B2B, Automação de Pedidos
   </div>
 
@@ -871,21 +959,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://softplan.com.br">
-    <img src="images/softplan.png" alt="softplan logo" width="400" style="border-radius: 10px;">
+    <img src="images/softplan.png" alt="softplan logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Transformação Digital para o Setor Público
+  <div class="area-badge">
+    🏛️ Transformação Digital para o Setor Público
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Processos digitais no setor público, oferecendo soluções inteligentes e integradas para justiça, infraestrutura, obras e processos administrativos, focando em agilidade, transparência e eficiência.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: SaaS, IA, Processos Digitais, Compliance, Infraestrutura, Gestão Pública, Software em Nuvem
   </div>
 
@@ -893,21 +981,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://soulivon.com.br">
-    <img src="images/livon.png" alt="livon logo" width="400" style="border-radius: 10px;">
+    <img src="images/livon.png" alt="livon logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Plataforma Integrada de Saúde, Segurança e Meio Ambiente (EHS/SST)
+  <div class="area-badge">
+    🏥 Saúde, Segurança e Meio Ambiente (EHS/SST)
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Solução com IA nativa para automatizar a gestão de saúde, segurança, meio ambiente e compliance regulatório.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: SaaS, IA, EHS e ESG, compliance documental, análise preditiva, integração com sistemas de RH
   </div>
 
@@ -915,43 +1003,43 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://motoristapx.com.br">
-    <img src="images/motoristapx.png" alt="Motorista PX logo" width="400" style="border-radius: 10px;">
+    <img src="images/motoristapx.png" alt="Motorista PX logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Plataforma de Agenciamento de Motoristas Profissionais de Caminhão
+  <div class="area-badge">
+    🚛 Agenciamento de Motoristas Profissionais
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Conecta caminhoneiros autônomos e ajudantes a transportadoras para serviços de transporte de cargas pontuais.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: agenciamento, CRM, verificação documental, mapeamento de riscos por satélite, automação de contratos e pagamentos.
+  <div class="tech-badge">
+    Tecnologias: Node.js, React Native, APIs REST, Geolocalização GPS, OCR, AWS, Automação de Contratos e Pagamentos
   </div>
 
 </div>
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://prosyst.com.br">
-    <img src="images/prosyst.png" alt="Prosyst logo" width="300" style="border-radius: 10px;">
+    <img src="images/prosyst.png" alt="Prosyst logo" width="300">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Sistemas de Gestão Empresarial ERP para Indústrias, Distribuidoras e Redes de Lojas
+  <div class="area-badge">
+    📋 ERP para Indústrias, Distribuidoras e Redes de Lojas
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     ERP integrado e uma plataforma complementar de business intelligence (nexBI) para suporte à decisão.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: ERP, BI, Cloud Computing, Automação de Processos, Compliance Fiscal, Integração de Sistemas
   </div>
 
@@ -959,43 +1047,43 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://trusted-health.com">
-    <img src="images/trustedhealth.png" alt="Trusted Health logo" width="400" style="border-radius: 10px;">
+    <img src="images/trustedhealth.png" alt="Trusted Health logo" width="400">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Plataforma de Gerenciamento de Vagas para Profissionais de Saúde
+  <div class="area-badge">
+    👩‍⚕️ Gerenciamento de Vagas para Profissionais de Saúde
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Conecta profissionais de enfermagem e saúde a oportunidades de trabalho em grandes redes hospitalares nos Estados Unidos, permitindo gerenciar vagas, candidaturas, histórico de turnos e pagamentos.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: API Rest, Ruby on Rails
+  <div class="tech-badge">
+    Tecnologias: Ruby on Rails, APIs REST, PostgreSQL, React Native, AWS, Integrações hospitalares
   </div>
 
 </div>
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://moneyp.com.br/">
-    <img src="images/bmptec.png" alt="BMPTech logo" width="300" style="border-radius: 10px;">
+    <img src="images/bmptec.png" alt="BMPTech logo" width="300">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Fintech — Banking as a Service (BaaS) e Credit as a Service (CaaS)
+  <div class="area-badge">
+    🏦 Fintech — BaaS e CaaS
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Parte do grupo BMP, desenvolve soluções financeiras digitais com foco total nos parceiros (clientes). Possui robusto conjunto de APIs, além de soluções em App e Web para BaaS e CaaS.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: JavaScript, Vue.js, C#, .NET Framework, .NET Core, APIs REST
   </div>
 
@@ -1003,21 +1091,21 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://pollux.com.br/">
-    <img src="images/pollux.png" alt="Pollux logo" width="200" style="border-radius: 10px;">
+    <img src="images/pollux.png" alt="Pollux logo" width="200">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Automação Industrial e Robótica
+  <div class="area-badge">
+    🤖 Automação Industrial e Robótica
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Integradora de automação industrial com sede em Joinville, especializada em linhas de montagem turnkey, robótica industrial e colaborativa, intralogística 4.0, sistemas de visão e máquinas especiais.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: Robótica FANUC/KUKA, Cobots, AMRs, Visão Computacional, IoT, PLC, SCADA
   </div>
 
@@ -1025,31 +1113,32 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
 ---
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
   <a href="https://multipedidos.com.br/">
-    <img src="images/multipedidos.png" alt="Multipedidos logo" width="350" style="border-radius: 10px;">
+    <img src="images/multipedidos.png" alt="Multipedidos logo" width="350">
   </a>
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
-    Foodtech — Gestão de Deliveries e Restaurantes
+  <div class="area-badge">
+    🍕 Foodtech — Gestão de Deliveries e Restaurantes
   </div>
 
-  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+  <p class="desc-box">
     Plataforma SaaS para gestão de food service com mais de 5 mil clientes. Integra cardápio digital, PDV, app de garçom, QR code de mesas e robô de vendas no WhatsApp em um único sistema.
   </p>
 
-  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+  <div class="tech-badge">
     Tecnologias: SaaS, APIs REST, Integrações (iFood, TOTVS, Saipos), WhatsApp, Pix, Web, Mobile
   </div>
 
 </div>
 
 ---
+<!-- _class: lead -->
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+<div class="company-card">
 
-  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+  <div class="area-badge">
     Próximos Passos
   </div>
 
