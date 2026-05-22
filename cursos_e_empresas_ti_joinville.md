@@ -101,6 +101,39 @@ section {
   height: 100%;
   padding: 60px 20px;
 }
+
+/* === Slide de resumo de cursos === */
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+  margin-top: 10px;
+}
+.summary-table thead tr {
+  background: #1a5276;
+  color: #fff;
+}
+.summary-table thead th {
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: bold;
+}
+.summary-table tbody tr:nth-child(odd) {
+  background: #f0f7fb;
+}
+.summary-table tbody tr:nth-child(even) {
+  background: #fff;
+}
+.summary-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid #d4e6f1;
+  vertical-align: middle;
+}
+.summary-table td img {
+  height: 36px;
+  object-fit: contain;
+  display: block;
+}
 </style>
 
 <!-- _class: lead -->
@@ -424,6 +457,79 @@ Foco em engenharia de processos, qualidade de software, DevOps, metodologias ág
 <p class="course-desc">
   Tecnólogo com entrada rápida no mercado. Forma desenvolvedores em programação, bancos de dados e soluções corporativas, com duração de apenas 3 anos e aulas noturnas.
 </p>
+
+---
+
+<table class="summary-table">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Curso</th>
+      <th>Tipo</th>
+      <th>Turno</th>
+      <th>Duração</th>
+      <th>Custo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="images/ifc.png" alt="IFC"></td>
+      <td>Sistemas de Informação (BSI)</td>
+      <td>Bacharelado</td>
+      <td>☀️</td>
+      <td>4</td>
+      <td>🟢</td>
+    </tr>
+    <tr>
+      <td><img src="images/ifc.png" alt="IFC"></td>
+      <td>Redes de Computadores</td>
+      <td>Tecnólogo</td>
+      <td>🌙</td>
+      <td>3</td>
+      <td>🟢</td>
+    </tr>
+    <tr>
+      <td><img src="images/udesc.png" alt="UDESC"></td>
+      <td>Ciência da Computação (BCC)</td>
+      <td>Bacharelado</td>
+      <td>🕐</td>
+      <td>4,5</td>
+      <td>🟢</td>
+    </tr>
+    <tr>
+      <td><img src="images/udesc.png" alt="UDESC"></td>
+      <td>Análise e Desenv. de Sistemas (TADS)</td>
+      <td>Tecnólogo</td>
+      <td>🌙</td>
+      <td>3</td>
+      <td>🟢</td>
+    </tr>
+      <tr>
+      <td><img src="images/catolica.png" alt="Católica SC"></td>
+      <td>Engenharia de Software (BES)</td>
+      <td>Bacharelado</td>
+      <td>☀️🌙</td>
+      <td>4</td>
+      <td>💰</td>
+    </tr>
+    <tr>
+      <td><img src="images/univille.png" alt="Univille"></td>
+      <td>Sistemas de Informação (BSI)</td>
+      <td>Bacharelado</td>
+      <td>☀️🌙</td>
+      <td>4</td>
+      <td>💰</td>
+    </tr>
+    <tr>
+      <td><img src="images/univille.png" alt="Univille"></td>
+      <td>Engenharia de Software (BES)</td>
+      <td>Bacharelado</td>
+      <td>☀️🌙</td>
+      <td>4</td>
+      <td>💰</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 <!-- _class: lead -->
