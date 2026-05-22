@@ -310,13 +310,13 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 </div>
 
 <div style="display: flex; justify-content: center; gap: 12px; margin: 15px 0 25px 0;">
-  <span style="background: #227c3f; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
     🎓 Tecnólogo
   </span>
-  <span style="background: #227c3f; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
     🌙 Noturno
   </span>
-  <span style="background: #227c3f; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
+  <span style="background: #2874a6; color: #fff; padding: 8px 20px; border-radius: 8px; font-weight: bold;">
     ⏳ 3 anos
   </span>
 </div>
@@ -428,6 +428,18 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
   <img src="images/trustedhealth.png" width="150" alt="Trusted Health">
 </a>
 
+<a href="https://moneyp.com.br/">
+  <img src="images/bmptec.png" width="150" alt="BMPTech">
+</a>
+
+<a href="https://pollux.com.br/">
+  <img src="images/pollux.png" width="150" alt="Pollux">
+</a>
+
+<a href="https://multipedidos.com.br/">
+  <img src="images/multipedidos.png" width="150" alt="Multipedidos">
+</a>
+
 </div>
 
 ---
@@ -469,7 +481,7 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
   </p>
 
   <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
-    Tecnologias: Java, .NET, ADVPL, Angular, Cloud Computing, Microserviços, SQL Server, PostgreSQL
+    Tecnologias: ADVPL, TLPP, Angular, TypeScript
   </div>
 
 </div>
@@ -963,6 +975,72 @@ Especialização em desenvolvimento de software, banco de dados, redes, gestão 
 
   <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
     Tecnologias: API Rest, Ruby on Rails
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://moneyp.com.br/">
+    <img src="images/bmptec.png" alt="BMPTech logo" width="300" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Fintech — Banking as a Service (BaaS) e Credit as a Service (CaaS)
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Parte do grupo BMP, desenvolve soluções financeiras digitais com foco total nos parceiros (clientes). Possui robusto conjunto de APIs, além de soluções em App e Web para BaaS e CaaS.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: JavaScript, Vue.js, C#, .NET Framework, .NET Core, APIs REST
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://pollux.com.br/">
+    <img src="images/pollux.png" alt="Pollux logo" width="200" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Automação Industrial e Robótica
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Integradora de automação industrial com sede em Joinville, especializada em linhas de montagem turnkey, robótica industrial e colaborativa, intralogística 4.0, sistemas de visão e máquinas especiais.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: Robótica FANUC/KUKA, Cobots, AMRs, Visão Computacional, IoT, PLC, SCADA
+  </div>
+
+</div>
+
+---
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto;">
+
+  <a href="https://multipedidos.com.br/">
+    <img src="images/multipedidos.png" alt="Multipedidos logo" width="350" style="border-radius: 10px;">
+  </a>
+
+  <div style="background: #1a5276; color: #fff; padding: 10px 30px; border-radius: 12px; font-weight: bold; font-size: 1.3em; text-align: center;">
+    Foodtech — Gestão de Deliveries e Restaurantes
+  </div>
+
+  <p style="background: #d4e6f1; padding: 20px 30px; border-radius: 12px; color: #154360; font-size: 1em; line-height: 1.5; text-align: center; margin: 0;">
+    Plataforma SaaS para gestão de food service com mais de 5 mil clientes. Integra cardápio digital, PDV, app de garçom, QR code de mesas e robô de vendas no WhatsApp em um único sistema.
+  </p>
+
+  <div style="background: #2874a6; color: #fff; padding: 12px 30px; border-radius: 12px; font-weight: bold; font-size: 0.9em; text-align: center;">
+    Tecnologias: SaaS, APIs REST, Integrações (iFood, TOTVS, Saipos), WhatsApp, Pix, Web, Mobile
   </div>
 
 </div>
